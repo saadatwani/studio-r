@@ -1,0 +1,12 @@
+:root{
+    --primary: #f4f1de;
+    --main: #e07a5f;
+    --dark: #4a4e69;
+}
+header {
+    background-color: var(--dark);
+}
+.branding img {
+    height: 50px; 
+    width: 50px;
+}

@@ -1,0 +1,32 @@
+:root{
+    --primary: #f4f1de;
+    --main: #e07a5f;
+    --dark: #4a4e69;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+header {
+    background-color: var(--primary);
+}
+.branding {
+height: 5vw;
+width: 100%;
+}
+.branding img {
+margin-left: 50px;
+height: 5vw;
+width: 55px;
+}
+.container {
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header nav .left a{
+    color:burlywood;
+    text-decoration: none;
+}
